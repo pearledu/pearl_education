@@ -27,15 +27,15 @@ const ContactUsForm = () => {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.send('service_pfllvgy', 'template_qhlwk0l', formData, 'J-w-M_av2o0C9GXEI')
+        emailjs.send('service_kk4d6rz', 'template_5do3pvo', formData, '-DuVhnlG90-MCA25b')
           .then((response) => {
             setResponseMessage('Message sent successfully!');
-            alert('Message sent successfully!');
+            //alert('Message sent successfully!');
           })
           .catch((error) => {
             setResponseMessage('Failed to send the message. Please try again later.');
             console.error('Error:', error);
-            alert('Failed to send the message. Please try again later.');
+            //alert('Failed to send the message. Please try again later.');
           });
       };
 
