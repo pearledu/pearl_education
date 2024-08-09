@@ -196,7 +196,7 @@ const ContactUsCarousel = () => {
                       4.5<div className="stars"> ★</div>
                     </div>
                     <h3>Rayyan</h3>
-                    <div className="service">Undergraduate Studen</div>
+                    <div className="service">Undergraduate Student</div>
                   </div>
                 </div>
                 <div className="title">Flexible and Convenient!</div>
