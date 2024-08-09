@@ -12,7 +12,7 @@ const Footer = () => {
 
                     <div class="col1">
                         <div class="footer-logo">
-                            <NavLink to="/pearl_education" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')}></NavLink>
+                            <NavLink to="/" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')}></NavLink>
                         </div>
                         <h4>Pearl Education</h4>
                         <p>Embark on a path to academic success with Pearl Education, where personalized learning meets excellence.</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                         
                             <ul class="footerMenu">
                                 <li>
-                                    <NavLink to="/pearl_education" exact className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
+                                    <NavLink to="/" exact className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'active' : '')}>About Us</NavLink>
