@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pearl_education/static/css/main.e2c44029.css",
-    "main.js": "/pearl_education/static/js/main.d9a72f97.js",
-    "static/js/453.0934d45b.chunk.js": "/pearl_education/static/js/453.0934d45b.chunk.js",
-    "static/media/embark_banner.png": "/pearl_education/static/media/embark_banner.30625788cce5c239d2dd.png",
-    "static/media/about-us-our-commitment.png": "/pearl_education/static/media/about-us-our-commitment.a00b1a4dc7b3d74a84c5.png",
-    "static/media/hero-banner-2.jpg": "/pearl_education/static/media/hero-banner-2.a053acc220434b9562cb.jpg",
-    "static/media/hero-banner-3.jpg": "/pearl_education/static/media/hero-banner-3.6036eab0f2265908c5ac.jpg",
-    "static/media/hero-banner-1.jpg": "/pearl_education/static/media/hero-banner-1.bf2ba7eac602aa679c7f.jpg",
-    "static/media/our-services.jpg": "/pearl_education/static/media/our-services.cff841c24aff96dcb68b.jpg",
-    "static/media/about-us-our-approach.jpg": "/pearl_education/static/media/about-us-our-approach.cfa14152195cb453f60e.jpg",
-    "index.html": "/pearl_education/index.html",
-    "main.e2c44029.css.map": "/pearl_education/static/css/main.e2c44029.css.map",
-    "main.d9a72f97.js.map": "/pearl_education/static/js/main.d9a72f97.js.map",
-    "453.0934d45b.chunk.js.map": "/pearl_education/static/js/453.0934d45b.chunk.js.map"
+    "main.css": "/static/css/main.5eb07ffb.css",
+    "main.js": "/static/js/main.f3c03138.js",
+    "static/js/453.0934d45b.chunk.js": "/static/js/453.0934d45b.chunk.js",
+    "static/media/embark_banner.png": "/static/media/embark_banner.30625788cce5c239d2dd.png",
+    "static/media/about-us-our-commitment.png": "/static/media/about-us-our-commitment.a00b1a4dc7b3d74a84c5.png",
+    "static/media/hero-banner-2.jpg": "/static/media/hero-banner-2.a053acc220434b9562cb.jpg",
+    "static/media/hero-banner-3.jpg": "/static/media/hero-banner-3.6036eab0f2265908c5ac.jpg",
+    "static/media/hero-banner-1.jpg": "/static/media/hero-banner-1.bf2ba7eac602aa679c7f.jpg",
+    "static/media/our-services.jpg": "/static/media/our-services.cff841c24aff96dcb68b.jpg",
+    "static/media/about-us-our-approach.jpg": "/static/media/about-us-our-approach.cfa14152195cb453f60e.jpg",
+    "index.html": "/index.html",
+    "main.5eb07ffb.css.map": "/static/css/main.5eb07ffb.css.map",
+    "main.f3c03138.js.map": "/static/js/main.f3c03138.js.map",
+    "453.0934d45b.chunk.js.map": "/static/js/453.0934d45b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c44029.css",
-    "static/js/main.d9a72f97.js"
+    "static/css/main.5eb07ffb.css",
+    "static/js/main.f3c03138.js"
   ]
 }
