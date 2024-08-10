@@ -171,8 +171,7 @@ const ContactUsCarousel = () => {
                 </div>
                 <div className="title">Comprehensive Support</div>
                 <div className="text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non lacus nec sem semper accumsan
-                  eget non tortor. Proin sagittis dui venenatis, pellentesque nisi hendrerit, iaculis felis.
+                "Pearl Education provided excellent support for my CELPIP preparation. The focused sessions and practical tips boosted my confidence, and I achieved the band score I needed for my PR application."
                 </div>
               </div>
             </div>
