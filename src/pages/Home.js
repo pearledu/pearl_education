@@ -7,7 +7,7 @@ import Menu from '../components/menu';
 import '../css/Home/home.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Testimonials from '../components/Home/Testimonials.js';
+import Testimonials from '../components/home/Testimonials.js';
 import embarkBanner from '../images/embark_banner.png';
 import heroBanner1 from "../images/hero-banner-1.jpg";
 import heroBanner2 from "../images/hero-banner-2.jpg";
