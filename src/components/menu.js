@@ -72,7 +72,7 @@ function Menu() {
 
                 
                     <div className="logo" >
-                        <NavLink to="/pearl_education" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')}></NavLink>
+                        <NavLink to="/" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')}></NavLink>
                     </div>
                 
 
@@ -81,7 +81,7 @@ function Menu() {
  
                     <ul className="menu">
                         <li>
-                            <NavLink to="/pearl_education" exact className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
+                            <NavLink to="/" exact className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
                         </li>
                         <li>
                             <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'active' : '')}>About Us</NavLink>
@@ -104,7 +104,7 @@ function Menu() {
             </div>
 
                 <Routes>
-                    <Route path="/pearl_education" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/about-us" element={<AboutUs />} />
                     <Route path="/testimonials" element={<Testimonials />} />
                     <Route path="/contact-us" element={<ContactUs />} />
