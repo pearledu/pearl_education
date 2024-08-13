@@ -30,7 +30,11 @@ function Menu() {
 
       useEffect(() => {
 
-        
+        if (window.innerWidth < 768) {
+            $('nav').hide();
+        } else {
+            $('nav').show();  // Make sure the menu is visible on larger screens
+        }
 
         const handleScroll = () => 
         {
