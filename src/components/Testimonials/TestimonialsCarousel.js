@@ -28,7 +28,7 @@ const testimonialsData = [
   },
   {
     photo: placeholder,
-    text: '“Pearl Education greatly benifited my studies and grades!”',
+    text: '“Pearl Education greatly benefited my studies and grades!”',
     name: '- Yashvi Sharma, Student',
     date: 'August 2024',
     rating: 4
