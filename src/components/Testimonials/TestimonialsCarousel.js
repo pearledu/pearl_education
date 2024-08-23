@@ -25,6 +25,13 @@ const testimonialsData = [
     name: '- Alex Doe, Student',
     date: 'August 2024',
     rating: 4
+  },
+  {
+    photo: placeholder,
+    text: '“Pearl Education greatly benifited my studies and grades!”',
+    name: '- Yashvi Sharma, Student',
+    date: 'August 2024',
+    rating: 4
   }
 ];
 
