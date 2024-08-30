@@ -205,6 +205,9 @@ const ContactUsCarousel = () => {
                 The flexibility allowed me to learn at my own pace without compromising on quality."
                 </div>
               </div>
+            </div>
+
+
               <div
               className="swiper-slide"
               role="group"
@@ -234,7 +237,6 @@ const ContactUsCarousel = () => {
                 </div>
               </div>
             </div>
-          </div>
           </div>
 
           <div className="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
