@@ -57,7 +57,7 @@ const ContactUsCarousel = () => {
             <div
               className="swiper-slide"
               role="group"
-              aria-label="1 / 5"
+              aria-label="1 / 6"
               data-swiper-slide-index="0"
               style={{
                 transitionDuration: '0ms',
@@ -88,7 +88,7 @@ const ContactUsCarousel = () => {
             <div
               className="swiper-slide"
               role="group"
-              aria-label="2 / 5"
+              aria-label="2 / 6"
               data-swiper-slide-index="1"
               style={{
                 transitionDuration: '0ms',
@@ -119,7 +119,7 @@ const ContactUsCarousel = () => {
             <div
               className="swiper-slide "
               role="group"
-              aria-label="3 / 5"
+              aria-label="3 / 6"
               data-swiper-slide-index="2"
               style={{
                 transitionDuration: '0ms',
@@ -150,7 +150,7 @@ const ContactUsCarousel = () => {
             <div
               className="swiper-slide "
               role="group"
-              aria-label="4 / 5"
+              aria-label="4 / 6"
               data-swiper-slide-index="3"
               style={{
                 transitionDuration: '0ms',
@@ -179,7 +179,7 @@ const ContactUsCarousel = () => {
             <div
               className="swiper-slide"
               role="group"
-              aria-label="5 / 5"
+              aria-label="5 / 6"
               data-swiper-slide-index="4"
               style={{
                 transitionDuration: '0ms',
@@ -205,7 +205,36 @@ const ContactUsCarousel = () => {
                 The flexibility allowed me to learn at my own pace without compromising on quality."
                 </div>
               </div>
+              <div
+              className="swiper-slide"
+              role="group"
+              aria-label="6 / 6"
+              data-swiper-slide-index="4"
+              style={{
+                transitionDuration: '0ms',
+                transform: 'translate3d(-240px, 0px, -400px) rotateX(0deg) rotateY(-20deg) scale(1)',
+                zIndex: -1,
+              }}
+            >
+              <div className="review">
+                <div className="reviewTopSection">
+                  <img src={person1} alt="Person 1" className="person" />
+                  <div className="reviewTopSectionLeftCol">
+                    <div className="starsText">
+                      4<div className="stars"> ★</div>
+                    </div>
+                    <h3>Deepak Sharma</h3>
+                    <div className="service">Parent of Grade 7 Student</div>
+                  </div>
+                </div>
+                <div className="title">Great Guidance and Support</div>
+                <div className="text">
+                "We have been with Pearl Education for 2 years now and it has greatly benefited 
+                her understanding on many concepts ranging from Math to Computer Science."
+                </div>
+              </div>
             </div>
+          </div>
           </div>
 
           <div className="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
