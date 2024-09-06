@@ -24,7 +24,7 @@ const AboutUs = () => {
       <OurApproach />
       <OurCommitment />
       <div class="contact-button">
-          <Button redirectTo="/contact-us">Contact Us</Button>
+          <Button redirectTo="/contact-us" onClick={() => window.scrollTo(0, 0)}>Contact Us</Button>
       </div>
       <Footer />
       

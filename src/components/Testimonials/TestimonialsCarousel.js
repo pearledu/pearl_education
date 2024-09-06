@@ -89,7 +89,7 @@ const TestimonialsCarousel = () => {
           ></span>
         ))}
       </div>
-      <Button className="contact-us-button" redirectTo="/contact-us">Contact Us</Button>
+      <Button className="contact-us-button" redirectTo="/contact-us" onClick={() => window.scrollTo(0, 0)}>Contact Us</Button>
     </div>
   );
 };
