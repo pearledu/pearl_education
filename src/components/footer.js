@@ -12,7 +12,7 @@ const Footer = () => {
 
                     <div class="col1">
                         <div class="footer-logo">
-                            <NavLink to="/pearl_education" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')}></NavLink>
+                            <NavLink to="/pearl_education" exact className={ ({ isActive }) => (isActive ? 'active logoNav' : 'logoNav')} onClick={() => window.scrollTo(0, 0)}></NavLink>
                         </div>
                         <h4>Pearl Education</h4>
                         <p>Embark on a path to academic success with Pearl Education, where personalized learning meets excellence.</p>
@@ -25,16 +25,16 @@ const Footer = () => {
                         
                             <ul class="footerMenu">
                                 <li>
-                                    <NavLink to="/pearl_education" exact className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
+                                    <NavLink to="/pearl_education" exact className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => window.scrollTo(0, 0)}>Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'active' : '')}>About Us</NavLink>
+                                    <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => window.scrollTo(0, 0)}>About Us</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/testimonials" className={({ isActive }) => (isActive ? 'active' : '')}>Testimonials</NavLink>
+                                    <NavLink to="/testimonials" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => window.scrollTo(0, 0)}>Testimonials</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/contact-us" className={({ isActive }) => (isActive ? 'active' : '')}>Contact Us</NavLink>
+                                    <NavLink to="/contact-us" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => window.scrollTo(0, 0)}>Contact Us</NavLink>
                                 </li>
                             </ul>
                         </div>    
