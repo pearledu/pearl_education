@@ -3,8 +3,10 @@
   <head>
     <meta http-equiv="refresh" content="0; url=/pearl_education/" />
     <script type="text/javascript">
-      window.location.href = "/pearl_education/";
-    </script>
+      // This script will redirect all requests back to index.html
+      var redirectUrl = window.location.origin + '/pearl_education/';
+      window.location.replace(redirectUrl);
+  </script>
   </head>
   <body>
   </body>
