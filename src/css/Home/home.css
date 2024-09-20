@@ -59,28 +59,7 @@ body{
 {
     z-index: 10;
     position: absolute;
-    top: 9%;
-}
-@media only screen and (min-width: 525px) 
-{
-  .hero-banner-container div.slide h2
-  {
-    top: 20%;
-  }
-}
-@media only screen and (min-width: 950px) 
-{
-  .hero-banner-container div.slide h2
-  {
-    top: 25%;
-  }
-}
-@media only screen and (min-width: 1200px) 
-{
-  .hero-banner-container div.slide h2
-  {
-    top: 35%;
-  }
+    padding-bottom: 180px;
 }
 .hero-banner-container div.slide img
 {
@@ -91,7 +70,8 @@ body{
 {
   position: absolute;
   z-index: 10;
-  margin: 80px 20px 0px 20px;
+  margin: 20px;
+  font-size: 30px;
 }
 
 
