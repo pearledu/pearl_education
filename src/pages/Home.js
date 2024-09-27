@@ -99,7 +99,7 @@ const Home = () => {
             <div className="slide">
               
               <h2>Get Started With Pearl Education</h2>
-              <p>Ready to take the next step in your academic journey? Contact us today to learn more about our services and how we can help you achieve your goals. At Pearl Education, your success is our mission.</p>
+              <p>Take the next step in your academic journey with Pearl Education—contact us today to learn how we can help you achieve your goals, because your success is our mission.</p>
               <img src={heroBanner1} alt="Special Offer 1" style={{ width: '100%', height: 'auto' }} />
             </div>
 
