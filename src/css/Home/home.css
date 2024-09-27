@@ -71,7 +71,24 @@ body{
   position: absolute;
   z-index: 10;
   margin: 20px;
-  font-size: 30px;
+}
+
+.hero-banner-container div.slide p {
+  font-size: 1.875rem; /* 30px on larger screens */
+}
+
+/* For tablets or smaller devices */
+@media (max-width: 768px) {
+  .hero-banner-container div.slide p {
+      font-size: 1.25rem; /* 24px on smaller screens */
+  }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+  .hero-banner-container div.slide p {
+      font-size: 1.1rem; /* 20px on small screens */
+  }
 }
 
 
