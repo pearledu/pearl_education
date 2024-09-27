@@ -126,11 +126,11 @@ const Home = () => {
             ref={(el) => (cardRefs.current[0] = el)}
           >
             <h3>Experienced Tutors</h3>
-            <p>Our team of highly qualified tutors brings extensive knowledge and expertise to each session. They are passionate about teaching and committed to helping students achieve their full potential. We offer personalized tutoring tailored to each student's needs and learning style.</p>
+            <p>Our passionate team of qualified tutors brings extensive knowledge and expertise to each session, providing personalized tutoring tailored to each student's unique needs and learning style to help them achieve their full potential.</p>
             <Button className="service-btn" onClick={() => handleButtonClick(0)}>Learn More</Button>
             <div className="more-info">
               <h4>Additional Information:</h4>
-              <p>We have tutors specializing in various subjects including Math, Science, and Humanities. Our tutors have a proven track record of helping students improve their grades and gain confidence in their academic abilities.</p>
+              <p>Our tutors specialize in Math, Science, and Humanities, and have a proven track record of helping students improve their grades and build confidence in their academic abilities.</p>
             </div>
           </div>
           <div
@@ -138,11 +138,11 @@ const Home = () => {
             ref={(el) => (cardRefs.current[1] = el)}
           >
             <h3>Flexible Learning Modes</h3>
-            <p>To accommodate the diverse needs of our students, we offer both online and offline one-on-one tutoring options. Whether you prefer the convenience of online sessions or the traditional in-person experience, we have the right solution for you. Our flexible scheduling ensures that you can fit tutoring into your busy life.</p>
+            <p>We offer both online and in-person one-on-one tutoring options to accommodate our students' diverse needs, with flexible scheduling that fits seamlessly into busy lives.</p>
             <Button className="service-btn" onClick={() => handleButtonClick(1)}>Learn More</Button>
             <div className="more-info">
               <h4>Additional Information:</h4>
-              <p>Online sessions use interactive tools to enhance learning, while offline sessions provide face-to-face interaction. Choose the mode that best suits your preferences and learning style.</p>
+              <p>Online sessions use interactive tools to enhance learning, while offline sessions provide face-to-face interaction, letting you choose the mode that best suits your preferences and learning style.</p>
             </div>
           </div>
           <div
@@ -150,11 +150,11 @@ const Home = () => {
             ref={(el) => (cardRefs.current[2] = el)}
           >
             <h3>Supportive Environment</h3>
-            <p>We create a positive and encouraging learning atmosphere that motivates students to strive for excellence. Our supportive environment helps build confidence and fosters a love for learning. We focus on creating a safe space where students feel comfortable asking questions and exploring new concepts.</p>
+            <p>We foster a positive and supportive learning environment that encourages students to excel, build confidence, and develop a love for learning, while providing a safe space for questions and exploration.</p>
             <Button className="service-btn" onClick={() => handleButtonClick(2)}>Learn More</Button>
             <div className="more-info">
               <h4>Additional Information:</h4>
-              <p>Our approach involves not just academic support but also emotional encouragement. We believe that a supportive environment is key to helping students achieve their best.</p>
+              <p>Our approach combines academic support with emotional encouragement, fostering a supportive environment that is essential for helping students achieve their best.</p>
             </div>
           </div>
         </div>
