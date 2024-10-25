@@ -201,7 +201,7 @@ const Home = () => {
           <img className="embark_banner" src={embarkBanner} alt="Descriptive text here" />
           <p>Unlock your full potential with Pearl Education, your trusted partner in academic excellence. We provide personalized, high-quality tutoring for students from Lower Kindergarten (LKG) to undergraduate levels. Whether you need help with core subjects or are preparing for important language proficiency exams, Pearl Education is here to guide you every step of the way.</p>
           
-          <Button className="contact-btn" redirectTo="/contact-us">Contact Us</Button>
+          <Button className="contact-btn" redirectTo="/contact-us" onClick={() => window.scrollTo(0, 0)}>Contact Us</Button>
         </div>
       </div>
 
