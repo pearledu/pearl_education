@@ -1,8 +1,18 @@
 body{
-  background-color: #F4EEE1;
+  background-color: white;
 }
 
+.call-banner {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background: #27295b;
+  color: white;
+  text-align: center;
+}
 
+.call-banner-color {
+  color: rgb(217, 227, 14);
+}
 .hero-banner-container {
   background: linear-gradient(90deg, rgba(247,150,45,1) 0%, rgba(20,172,160,1) 50%, rgba(244,171,192,1) 100%);
   display: flex;

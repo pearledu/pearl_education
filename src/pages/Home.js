@@ -12,6 +12,7 @@ import embarkBanner from '../images/embark_banner.png';
 import heroBanner1 from "../images/hero-banner-1.jpg";
 import heroBanner2 from "../images/hero-banner-2.jpg";
 import heroBanner3 from "../images/hero-banner-3.jpg";
+import { BiPhoneCall } from "react-icons/bi";
 
 const responsive = {
   superLargeDesktop: {
@@ -86,6 +87,9 @@ const Home = () => {
 
   return (
     <>
+    <div className="call-banner">
+      <h3><BiPhoneCall /> CALL NOW, WE'RE OPEN <span className="call-banner-color">1-343-558-0743</span></h3>
+    </div>
       <div className="hero-banner-container">
         <div className="hero-banner">
           <Carousel
