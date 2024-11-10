@@ -3,8 +3,7 @@ body{
 }
 
 .call-banner {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding: 0.01% 0;
   background: #27295b;
   color: white;
   text-align: center;
@@ -17,7 +16,7 @@ body{
 @media (max-width: 600px) {
   .call-banner {
     font-size: 0.8rem; /* Slightly smaller font */
-    padding: 0.5% 0; /* Less padding */
+    padding: 0.01% 0; /* Less padding */
   }
 }
 
@@ -25,7 +24,7 @@ body{
 @media (min-width: 601px) and (max-width: 1024px) {
   .call-banner {
     font-size: 0.9rem; /* Medium font size */
-    padding: 1% 0;
+    padding: 0.01% 0;
   }
 }
 
@@ -33,7 +32,7 @@ body{
 @media (min-width: 1025px) {
   .call-banner {
     font-size: 1.1rem; /* Larger font for desktop */
-    padding: 1.2% 0;
+    padding: 0.01% 0;
   }
 }
 
