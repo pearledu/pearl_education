@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pearl_education/static/css/main.b9dfec01.css",
+    "main.css": "/pearl_education/static/css/main.070a4ed5.css",
     "main.js": "/pearl_education/static/js/main.2be43c7b.js",
     "static/js/453.0934d45b.chunk.js": "/pearl_education/static/js/453.0934d45b.chunk.js",
     "static/media/embark_banner.png": "/pearl_education/static/media/embark_banner.30625788cce5c239d2dd.png",
@@ -10,12 +10,12 @@
     "static/media/hero-banner-1.jpg": "/pearl_education/static/media/hero-banner-1.bf2ba7eac602aa679c7f.jpg",
     "static/media/our-services.jpg": "/pearl_education/static/media/our-services.cff841c24aff96dcb68b.jpg",
     "index.html": "/pearl_education/index.html",
-    "main.b9dfec01.css.map": "/pearl_education/static/css/main.b9dfec01.css.map",
+    "main.070a4ed5.css.map": "/pearl_education/static/css/main.070a4ed5.css.map",
     "main.2be43c7b.js.map": "/pearl_education/static/js/main.2be43c7b.js.map",
     "453.0934d45b.chunk.js.map": "/pearl_education/static/js/453.0934d45b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9dfec01.css",
+    "static/css/main.070a4ed5.css",
     "static/js/main.2be43c7b.js"
   ]
 }
