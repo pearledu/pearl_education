@@ -13,6 +13,30 @@ body{
 .call-banner-color {
   color: rgb(217, 227, 14);
 }
+
+@media (max-width: 600px) {
+  .call-banner {
+    font-size: 0.8rem; /* Slightly smaller font */
+    padding: 0.5% 0; /* Less padding */
+  }
+}
+
+/* Medium screens (e.g., tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .call-banner {
+    font-size: 0.9rem; /* Medium font size */
+    padding: 1% 0;
+  }
+}
+
+/* Larger screens (e.g., desktops) */
+@media (min-width: 1025px) {
+  .call-banner {
+    font-size: 1.1rem; /* Larger font for desktop */
+    padding: 1.2% 0;
+  }
+}
+
 .hero-banner-container {
   background: linear-gradient(90deg, rgba(247,150,45,1) 0%, rgba(20,172,160,1) 50%, rgba(244,171,192,1) 100%);
   display: flex;
