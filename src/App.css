@@ -4,7 +4,7 @@
 }
 body
 {
-  background-color: #F4EEE1;
+  background-color: white;
 }
 
 .App-logo {
@@ -41,12 +41,12 @@ body
     position: sticky;
     transition: all 0.3s ease;
     z-index: 999;
-    background: #F4EEE1;
+    background: white;
 }
 .mainMenuSticky
 {
   position: fixed;
-  background: #F4EEE1;
+  background: white;
   top: 0px;
   height: 85px;
   border-bottom: 3px solid #2D2D2D;
@@ -78,7 +78,7 @@ body
 }
 nav 
 {
-  background: #f4eee1;
+  background: white;
   margin: 10px 0 0;
   position: absolute;
   right: 0;
@@ -96,7 +96,7 @@ nav
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background-color: #F4EEE1;
+  background-color: white;
 }
 
 .menu li {
@@ -177,7 +177,7 @@ nav
 footer
 {
   background: #2D2D2D;
-  color:#F4EEE1;
+  color:white;
   padding: 40px;
   margin: 0 0 0 0;
 }
@@ -200,7 +200,7 @@ h4
 }
 .footerMenu li a
 {
-  color:#F4EEE1;
+  color:white;
   text-decoration: none;
   font-size: 18px;
   margin-bottom: 10px;
